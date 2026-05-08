@@ -1,2 +1,22 @@
-<p><b>主頁</b>~測試</p>
-<p>
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="content"></div>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="content"></div>
+
+<script>
+fetch("https://drive.google.com/uc?export=download&id=16BL5AyEQbDLI7nj4MwwuaWlSXoLLUvbO")
+  .then(response => response.text())
+    .then(data => {
+        document.getElementById("content").innerHTML = data;
+        >  });
+</script>
+
+</body>
+</html>
